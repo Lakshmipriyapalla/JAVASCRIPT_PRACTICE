@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var courses=[
+        {
+           title:'reactjs',price:20000,technology:'java'
+        },
+        {
+           title:'sb',price:10000,technology:'sql'
+        },
+        {
+           title:'node js',price:35000,technology:'javascript'
+        },
+        {
+           title:'python',price:40000,technology:'cloud'
+        },
+        ]
+        var filter=courses.filter(p=>p.price >20000)
+        console.log(filter)
+    </script>
+</body>
+</html>
